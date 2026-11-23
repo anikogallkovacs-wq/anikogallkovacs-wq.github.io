@@ -1,13 +1,38 @@
-# Site identity
-marketing:
-  seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: 'Gáll Anikó'
-    description: 'Munkahelyi jóllét kutató és szakértő – tudományos alapú tudás, közérthetően.'
-    twitter: ''
+# Hugo Blox - Site Configuration
+# Docs: https://docs.hugoblox.com
+
+# --- Identity ---
+identity:
+  name: Gáll Anikó
+  organization: ''
+  type: person
+  tagline: Munkahelyi jóllét kutató és szakértő
+  description: Tudományos alapú tudás a munkahelyi jóllétről – közérthetően.
+  twitter: ''
+
+# --- Theme ---
 appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: native
-  font_size: L
+  mode: system
+  color: ''
+
+# --- Typography ---
+typography:
+  font_pack: native
+
+# --- Layout ---
+layout:
+  border_radius: md
+  spacing: spacious
+  avatar:
+    shape: circle
+
+# --- Header ---
+header:
+  navbar:
+    enable: true
+    blox: ''
+    fixed_to_top: true
+    show_search: true
+    show_theme_chooser: true
+    show_translations: false
+    logo:
