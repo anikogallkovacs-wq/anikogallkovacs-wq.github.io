@@ -7,7 +7,7 @@ main:
     url: about/
     weight: 20
   - name: Tudástár
-    url: post/
+    url: blog/
     weight: 30
   - name: PhD kutatás
     url: phd/
