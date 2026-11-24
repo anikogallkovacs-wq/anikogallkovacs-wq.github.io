@@ -1,1 +1,37 @@
 
+# Display name
+title: Gáll Anikó
+
+# Role/position
+role: Munkahelyi jóllét kutató | HR szakértő
+
+# Short bio
+bio: |
+  Tudományos alapokon vizsgálom, hogyan lehet a munkahelyeket emberközpontúbbá tenni.
+
+# Social/profile links
+profiles:
+  - icon: at-symbol
+    url: 'mailto:aniko.gall.kovacs@gmail.com'
+    label: E-mail
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/gallaniko/
+    label: LinkedIn
+
+# Education
+education:
+  - area: Innovációmenedzsment (doktori képzés)
+    institution: Óbudai Egyetem
+    date_start: '2024-01-01'
+    date_end: ''
+  - area: HR / Szervezetfejlesztés
+    institution: ''
+    date_start: ''
+    date_end: ''
+
+# Interests
+interests:
+  - Munkahelyi jóllét
+  - Szervezeti kultúra
+  - Vezetőfejlesztés
+  - Wellbeing programok
