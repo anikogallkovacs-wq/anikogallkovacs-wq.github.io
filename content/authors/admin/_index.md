@@ -5,10 +5,10 @@ bio: Tudományos alapokon vizsgálom, hogyan lehet a munkahelyeket emberközpont
 
 profiles:
   - icon: at-symbol
-    url: 'mailto:ide.ird@az.emailed.hu'
+    url: 'mailto:aniko.gall.kovacs@gmail.com'
     label: E-mail
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/IDE-A-TIED
+    url: https://www.linkedin.com/in/gallaniko/
     label: LinkedIn
 
 education:
