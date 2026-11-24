@@ -4,15 +4,22 @@ date: 2024-11-24
 type: landing
 
 sections:
-  - block: about.biography
-    id: about
+  - block: resume-biography-3
     content:
-      title: ''
       username: admin
+      text: ''
+      button:
+        text: ''
+        url: ''
     design:
       background:
         gradient_mesh:
           enable: true
+      avatar:
+        size: medium
+        shape: circle
+      name:
+        size: lg
 
   - block: markdown
     id: phd
