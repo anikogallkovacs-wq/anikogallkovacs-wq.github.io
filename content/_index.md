@@ -4,9 +4,13 @@ date: 2024-11-24
 type: landing
 
 sections:
-  - block: resume-biography-3
+   - block: resume-biography-3
     content:
       username: admin
+      headings:
+        about: "Szakmai bemutatkozás"
+        education: "Tanulmányok"
+        interests: "Szakterületek"
       text: ''
       button:
         text: ''
