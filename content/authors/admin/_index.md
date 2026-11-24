@@ -1,5 +1,6 @@
 ---
 title: Gáll Anikó
+display_name: Gáll Anikó
 role: Munkahelyi jóllét kutató | HR szakértő
 bio: Tudományos alapokon vizsgálom, hogyan lehet a munkahelyeket emberközpontúbbá tenni.
 
