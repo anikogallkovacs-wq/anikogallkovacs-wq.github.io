@@ -1,34 +1,36 @@
 ---
 title: ''
+summary: ''
 date: 2024-11-24
 type: landing
 
-design:
-  spacing:
-    padding: ['0', '0', '0', '0']
-
 sections:
-  - block: hero
+  - block: resume-biography-3
     content:
-      title: |
-        Munkahelyi jóllét –
-        tudományos alapokon
-      text: |
-        Abban tudok segíteni, hogy a hétfő reggeli ébredés gondolata pont ugyanolyan jó érzéssel töltsön el, mint a péntek esti pihenésé.
-
-        <br>
-
-        Gáll Anikó vagyok, munkahelyi jóllét kutató és HR szakértő. Ezen az oldalon megosztom a kutatási eredményeimet és a szakirodalom legfontosabb felismeréseit – közérthetően.
-    design:
-      css_class: 'dark'
-      background:
-        color: '#1a1a2e'
-
-  - block: about.biography
-    id: about
-    content:
-      title: Rólam
       username: admin
+      text: ''
+      button:
+        text: ''
+        url: ''
+    design:
+      background:
+        gradient_mesh:
+          enable: true
+      avatar:
+        size: medium
+        shape: circle
+
+  - block: markdown
+    id: phd
+    content:
+      title: 'PhD kutatás'
+      subtitle: 'Munkahelyi jóllét gyakorlatok bevezetése'
+      text: |-
+        A doktori kutatásom azt vizsgálja, milyen szervezeti kultúra, vezetői szemlélet és megvalósítási stratégia szükséges ahhoz, hogy egy munkahelyi wellbeing program valóban működjön.
+
+        [Bővebben a kutatásról →](phd/)
+    design:
+      columns: '1'
 
   - block: collection
     id: posts
@@ -36,32 +38,18 @@ sections:
       title: Tudástár
       subtitle: Kutatásalapú írások a munkahelyi jóllétről
       text: ''
+      page_type: blog
       count: 5
       filters:
-        folders:
-          - post
+        author: ''
+        category: ''
+        tag: ''
         exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+      order: desc
     design:
-      view: article-grid
-      columns: 2
-
-  - block: markdown
-    id: phd
-    content:
-      title: PhD kutatás
-      subtitle: Munkahelyi jóllét gyakorlatok bevezetése
-      text: |
-        A doktori kutatásom azt vizsgálja, milyen szervezeti kultúra, vezetői szemlélet és megvalósítási stratégia szükséges ahhoz, hogy egy munkahelyi wellbeing program valóban működjön.
-
-        [Bővebben a kutatásról →](phd/)
-
-  - block: contact
-    id: contact
-    content:
-      title: Kapcsolat
-      text: Ha kérdésed van, vagy együttműködésben gondolkodsz, keress bátran.
-      email: ide.ird@az.emailed.hu
-      autolink: true
-    design:
-      columns: 2
+      view: card
+      spacing:
+        padding: [0, 0, 0, 0]
 ---
