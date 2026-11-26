@@ -1,0 +1,85 @@
+<style>
+  /* --- Főoldal bemutatkozó blokk: kisebb térköz felül/alul nagy képernyőn --- */
+  #section-resume-biography-3.hbb-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  @media (min-width: 1024px) {
+    .resume-biography {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
+    }
+  }
+
+  /* --- Tanulmányok kártyák: legfeljebb 2 oszlop, hosszú szavak elválasztása --- */
+  @media (min-width: 1280px) {
+    .resume-biography .xl\:grid-cols-3 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .resume-biography p {
+    hyphens: auto;
+    overflow-wrap: break-word;
+  }
+  .resume-biography .flex-1 {
+    min-width: 0;
+  }
+
+  /* --- Bemutatkozó blokk: egy oszlop, minden középre zárva --- */
+  .resume-biography .md\:grid-cols-12 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .resume-biography .md\:col-span-4,
+  .resume-biography .md\:col-span-8 {
+    grid-column: 1 / -1;
+  }
+  .resume-biography .md\:col-span-8 {
+    width: 100%;
+    max-width: 56rem;
+    margin-inline: auto;
+  }
+  .resume-biography .flex.items-center.gap-4 {
+    justify-content: center;
+  }
+  .resume-biography .prose {
+    margin-inline: auto;
+    max-width: 56rem;
+    text-align: left;
+  }
+  .resume-biography .bio-text {
+    max-width: none;
+  }
+  .resume-biography .flex-wrap {
+    justify-content: center;
+  }
+  .resume-biography .mb-12,
+  .resume-biography .mb-16 {
+    margin-bottom: 3.5rem;
+  }
+
+  /* --- Profilkép a bemutatkozás mellett --- */
+  .resume-biography .bio-text figure {
+    width: 70%;
+    max-width: 16rem;
+    margin: 0 auto 1.5rem;
+  }
+  .resume-biography .bio-text figure img {
+    display: block;
+    width: 100%;
+    margin: 0;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  }
+  @media (min-width: 768px) {
+    .resume-biography .bio-text figure {
+      float: left;
+      width: 16rem;
+      margin: 0.4rem 2rem 1rem 0;
+    }
+  }
+  .resume-biography .bio-text::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+</style>

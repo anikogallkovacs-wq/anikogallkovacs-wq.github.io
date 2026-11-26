@@ -9,7 +9,7 @@ sections:
       username: admin
       headings:
         about: "Szakmai bemutatkozás"
-        education: "Tanulmányok"
+        education: "Tanulmányok és szakmai tapasztalat"
         interests: "Szakterületek"
       text: ''
       button:
@@ -29,9 +29,9 @@ sections:
     id: phd
     content:
       title: 'PhD kutatás'
-      subtitle: 'Munkahelyi jóllét gyakorlatok bevezetése'
+      subtitle: 'Munkahelyi jólléti gyakorlatok a szervezetekben'
       text: |-
-        A doktori kutatásom azt vizsgálja, milyen szervezeti kultúra, vezetői szemlélet és megvalósítási stratégia szükséges ahhoz, hogy egy munkahelyi wellbeing program valóban működjön.
+        A doktori kutatásom azt vizsgálja, milyen szerepet játszik a szervezeti kultúra, a vezetői támogatás és a munkavállalói részvétel abban, hogy a munkahelyi jólléti gyakorlatokat mennyire észlelik eredményesnek.
 
         [Bővebben a kutatásról →](phd/)
     design:
