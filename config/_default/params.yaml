@@ -12,7 +12,7 @@ identity:
 
 # --- Theme ---
 appearance:
-  mode: system
+  mode: light
   color: ''
 
 # --- Typography ---
